@@ -33,6 +33,7 @@ En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redac
 | --- | --- | --- | ---
 | Negrita | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
 | Cursiva | * * o _ _ | \*Texto en cursuva\*| *Texto en cursiva*
+| Tachado | \~\~ \~\~ | \~Texto tachado\~ | ~~Texto tachado~~
 
 ### **1.2.3 Resaltar un comando**
 **Sintaxis Markdown:**  
@@ -82,7 +83,7 @@ print(f'La temperatura en grados Farenheit es: {farenheit}')
 **Sintaxis Markdown:**  
 ```  
 [Enlace a la página web del IES Doñana](https://iesdonana.org)  
-```  
+```
 
 **HTML renderizado en GitHub:**  
 
@@ -93,20 +94,20 @@ print(f'La temperatura en grados Farenheit es: {farenheit}')
 También se pueden crear enlaces con esta sintaxis:
 
 **Sintaxis Markdown:**  
-```
+```  
 Enlaces a la página web del [IES Donñana][1] y a [GitHub][2].
 
 [1]: https://iesdonana.org
 [2]: https://github.com
-
 ```  
+
 **HTML renderizado en GitHub:**  
 
 Enlaces a la página web del [IES Donñana][1] y a [GitHub][2].
 
-Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el mismo enlace varias veces en el documento.
+Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el mismo enlace varias veces en el documento.  
 
-### 1.2.6 Imágenes  
+### **1.2.6 Imágenes**  
 
 **Sintaxis Markdown:**  
 
@@ -121,10 +122,12 @@ Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el m
 
 **HTML renderizado en GitHub:**  
 
-![|10](https://pro.iesdonana.org/assets/logo.png)  
+![](https://pro.iesdonana.org/assets/logo.png)
 
-![](/images/instituto.jpeg)
+![Imagen|10](/images/instituto.jpg)
 
+- [x] Jose  
+- [ ] Juan
 
 
 
@@ -144,4 +147,5 @@ Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el m
 
 [1]: https://iesdonana.org
 [2]: https://github.com
+
 
