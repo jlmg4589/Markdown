@@ -126,23 +126,160 @@ Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el m
 
 ![Imagen|10](/images/instituto.jpg)
 
-- [x] Jose  
-- [ ] Juan
+### **1.2.7 Listas**
+**Sintaxis Markdown:**  
+```
+* Item 1
+* Item 2
+* Item 3
+* Item 4
+```
+
+**HTML renderizado en GitHub:**  
+
+* Item 1
+* Item 2
+* Item 3
+* Item 4
+
+#### **1.2.7.2 Listas desordenadas anidadas**
+**Sintaxis Markdown:**  
+```
+* Item 1
+    * Item 1.1
+    * Item 1.2
+* Item 2
+    * Item 2.1
+* Item 3
+* Item 4
+```
+**HTML renderizado en GitHub:**  
+
+* Item 1
+    * Item 1.1
+    * Item 1.2
+* Item 2
+    * Item 2.1
+* Item 3
+* Item 4
+
+#### **1.2.7.3 Listas ordenadas**
+**Sintaxis Markdown:**  
+```
+1. Item 1
+2. Item 2
+3. Item 3
+4. Item 4
+```
+
+**HTML renderizado en GitHub:**  
+1. Item 1
+2. Item 2
+3. Item 3
+4. Item 4
+
+#### **1.2.7.4 Listas ornenadas anidadas**
+**Sintaxis Markdown:** 
+
+```
+1. Item 1
+    1.1 Item 1.1
+    1.2 Item 1.2
+2. Item 2
+    2.1 Item 2.1
+3. Item 3
+4. Item 4
+```
+**HTML renderizado en GitHub:** 
+
+1. Item 1
+    1.1 Item 1.1
+    1.2 Item 1.2
+2. Item 2
+    2.1 Item 2.1
+3. Item 3
+4. Item 4
 
 
 
 
+#### **1.2.7.5 Listas de comprobación**
+**Sintaxis Markdown:** 
+```
+- [x] Caso 1  
+- [ ] Caso 2
+- [ ] Caso 3
+- [x] Caso 4
+```
+**HTML renderizado en GitHub:** 
 
+- [x] Caso 1  
+- [ ] Caso 2
+- [ ] Caso 3
+- [x] Caso 4
 
+### **1.2.8 Tablas**
+**Sintaxis Markdown:** 
+```
+| Encabezado 1 | Encabezado 2 | Encabezado 3
+| --- | --- | --- | ---
+| Fila 1.1 | Fila 1.2 | Fila 1.3
+| Fila 2.1 | Fila 2.2 | Fila 2.3
+| Fila 3.1 | Fila 3.2 | Fila 3.3
+```
+**HTML renderizado en GitHub:** 
 
+| **Encabezado 1** | ***Encabezado 2*** | **Encabezado 3**  
+| --- | --- | ---   
+| *Fila 1.1* | Fila 1.2 | Fila 1.3  
+| Fila 2.1 | *Fila 2.2* | Fila 2.3  
+| Fila 3.1 | Fila 3.2 | *Fila 3.3*  
 
+### **1.2.9 Forzar un salto de línea**  
+Para forzar un salto de línea es necesario incluir dos espacios en blanco y un salto de línea.
 
+**Sintaxis Markdown:**  
+```
+Por ejemplo, en esta frase  
+hemos forzado un salto de línea.
+```
 
+**HTML renderizado en GitHub:**  
 
+Por ejemplo, en esta frase  
+hemos forzado un salto de línea.
 
+### **1.2.10 Citar textos**
+**Sintaxis Markdown:**  
+```
+Este texto no es una cita.
+> Este texto daría como resultado una cita.
+```
 
+**HTML renderizado en GitHub:**  
 
+Este texto no es una cita.
+> Este texto daría como resultado una cita.
 
+### **1.2.11 Comentarios**  
+Para poner un comentario en Markdown y que su contenido no sea rendereizado, se utiliza la misma sintaxis que los comentarios de HTML.
+**Sintaxis Markdown:**  
+
+```
+Párrafo 1.
+
+<!-- Este texto es un comentario y no será renderizado -->
+
+Párrafo 2.
+```
+
+**HTML renderizado en GitHub:**  
+
+Párrafo 1.
+
+<!-- Este texto es un comentario y no será renderizado -->
+
+Párrafo 2.
 
 
 [1]: https://iesdonana.org
