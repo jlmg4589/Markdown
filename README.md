@@ -1,9 +1,31 @@
 # Índice  
 
-1. [Taller de introducción a Markdown](#1-taller-de-introducción-a-markdown)
-2. [Referencias](#2-referencias)
+1. [Taller de introducción a Markdown](#1-taller-de-introducción-a-markdown)  
+   1.1 [¿Qué es Markdown?](#11-¿qué-es-markdown)  
+   1.2 [Etiquetas básicas de Markdown](#12-etiquetas-básicas-de-markdown)  
+    1.2.1 [Encabezados](#121-encabezados)  
+    1.2.2 [Negrita y cursiva](#122-negrita-y-cursiva)  
+    1.2.3 [Resaltar un comando](#123-resaltar-un-comando)
+    1.2.4 [Bloques de código](#124-bloques-de-código)
+    1.2.5 [Enlaces](#125-enlaces)
+        1.2.5.1 [Otra forma de gestionar enlaces](#1251-otra-forma-de-gestionar-enlaces)
+    1.2.6 [Imágenes](#126-imágenes)
+    1.2.7 [Listas](#127-listas)
+        1.2.7.1 [Listas desordenadas](#1271-listas-desordenadas)
+        1.2.7.2 [Listas desordenadas anidadas](#1272-listas-desordenadas-anidadas)
+        1.2.7.3 [Listas ordenadas](#1273-listas-ordenadas)
+        1.2.7.4 [Listas ordenadas anidadas](#1274-listas-ornenadas-anidadas)
+        1.2.7.5 [Listas de comprobación](#1275-listas-de-comprobación)
+    1.2.8 [Tablas](#128-tablas)
+    1.2.9 [Forzar un salto de línea](#129-forzar-un-salto-de-línea)
+    1.2.10 [Citar textos](#1210-citar-textos)
+    1.2.11 [Comentarios](#1211-comentarios)
+    1.2.12 [Diagrama de flujo](#1212-diagrama-de-flujo)
+    1.2.14 [Ecuaciones matemáticas](#1214-ecuaciones-matemáticas)
+2. [Referencias](#2-referencias)  
 
-# **1 Taller de introducción a Markdown**  
+# **1. Taller de introducción a Markdown**  
+
 ## **1.1 ¿Qué es Markdown?**  
 [Markdown](https://daringfireball.net/projects/markdown/) es un lenguaje de marcado ligero creado por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) y [Aaron Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) que trata de **facilitar la redacción y lectura de documentos en texto plano**, utilizando un conjunto de etiquetas muy sencillas para aplicar estilo al documento.
 
@@ -88,7 +110,7 @@ farenheit = (1.8 * celsius) + 32
 print(f'La temperatura en grados Farenheit es: {farenheit}')
 ```
 
-###  Enlaces  
+###  **1.2.5 Enlaces**  
 
 **Sintaxis Markdown:**  
 ```  
@@ -152,6 +174,7 @@ Markdown:
 ![imagen3](/images/instituto1.jpg)
 
 ### **1.2.7 Listas**
+#### **1.2.7.1 Listas desordenadas**
 **Sintaxis Markdown:**  
 ```
 * Item 1
@@ -371,7 +394,7 @@ $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
 [Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
 
 
-# 2 Referencias
+# 2. Referencias
 * [GitHub](https://docs.github.com/es/get-started)  
 * [IAW - Jose Juan Sánchez](https://josejuansanchez.org/iaw/taller-markdown/index.html#taller-de-introducci%C3%B3n-a-markdown)  
 * [StackOverFlow](https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown)  
