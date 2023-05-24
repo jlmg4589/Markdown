@@ -1,3 +1,10 @@
+1. [`git`](#git)  
+   [1.1 Instalación y configuración de `git`](#instalación-y-configuración-de-git)  
+   1.2 [¿Qué es Markdown?](#¿Qué-es-Markdown?)  
+
+# `git`
+## 1.1 Instalación y configuración de `git`
+
 # **1 Taller de introducción a Markdown**  
 ## **1.1 ¿Qué es Markdown?**  
 [Markdown](https://daringfireball.net/projects/markdown/) es un lenguaje de marcado ligero creado por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) y [Aaron Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) que trata de **facilitar la redacción y lectura de documentos en texto plano**, utilizando un conjunto de etiquetas muy sencillas para aplicar estilo al documento.
@@ -164,6 +171,9 @@ Markdown:
 * Item 4
 
 #### **1.2.7.2 Listas desordenadas anidadas**
+
+Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.
+
 **Sintaxis Markdown:**  
 ```
 * Item 1
@@ -200,6 +210,9 @@ Markdown:
 4. Item 4
 
 #### **1.2.7.4 Listas ornenadas anidadas**
+
+Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.
+
 **Sintaxis Markdown:** 
 
 ```
@@ -221,9 +234,6 @@ Markdown:
 3. Item 3  
 4. Item 4  
 
-
-
-
 #### **1.2.7.5 Listas de comprobación**
 **Sintaxis Markdown:** 
 ```
@@ -242,11 +252,11 @@ Markdown:
 ### **1.2.8 Tablas**
 **Sintaxis Markdown:** 
 ```
-| Encabezado 1 | Encabezado 2 | Encabezado 3
-| --- | --- | --- | ---
-| Fila 1.1 | Fila 1.2 | Fila 1.3
-| Fila 2.1 | Fila 2.2 | Fila 2.3
-| Fila 3.1 | Fila 3.2 | Fila 3.3
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| --- | ---: | :---: |
+| Fila 1.1 | Fila 1.2 | Fila 1.3 |
+| Fila 2.1 | Fila 2.2 | Fila 2.3 |
+| Fila 3.1 | Fila 3.2 | Fila 3.3 |
 ```
 **HTML renderizado en GitHub:** 
 
@@ -363,10 +373,9 @@ $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
 
 [Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.  
-
 
 # 2 Bibliografía
 [GitHub](https://docs.github.com/es/get-started)  
 [IAW - Jose Juan Sánchez](https://josejuansanchez.org/iaw/taller-markdown/index.html#taller-de-introducci%C3%B3n-a-markdown)  
 [StackOverFlow](https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown)  
+
