@@ -1,9 +1,7 @@
-1. [`git`](#git)  
-   [1.1 Instalación y configuración de `git`](#instalación-y-configuración-de-git)  
-   1.2 [¿Qué es Markdown?](#¿Qué-es-Markdown?)  
+# Índice  
 
-# `git`
-## 1.1 Instalación y configuración de `git`
+1. [Taller de introducción a Markdown](#1-taller-de-introducción-a-markdown)
+2. [Referencias](#2-referencias)
 
 # **1 Taller de introducción a Markdown**  
 ## **1.1 ¿Qué es Markdown?**  
@@ -38,7 +36,7 @@ En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redac
 ### **1.2.2 Negrita y cursiva**
 | **Estilo** | **Métodos abreviados** | **Sintaxis** | **Ejemplo** | **Salida**  
 | --- | --- | --- | --- | ---
-| Negrita | `Command+B` (Mac) o `Ctrl+B` (Windows/Linux) |  | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
+| Negrita | `Command+B` (Mac) o `Ctrl+B` (Windows/Linux) | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
 | Cursiva | `Command+I` (Mac) o `Ctrl+I` (Windows/Linux) | * * o _ _ | \*Texto en cursuva\*| *Texto en cursiva*
 | Tachado | Ninguno | \~\~ \~\~ | \~Texto tachado\~ | ~~Texto tachado~~
 
@@ -73,7 +71,6 @@ farenheit = (1.8 * celsius) + 32
 print(f'La temperatura en grados Farenheit es: {farenheit}')  
 ```
 ````
-
 **HTML renderizado en GitHub:**  
 
 ```
@@ -374,8 +371,8 @@ $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
 [Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
 
 
-# 2 Bibliografía
-[GitHub](https://docs.github.com/es/get-started)  
-[IAW - Jose Juan Sánchez](https://josejuansanchez.org/iaw/taller-markdown/index.html#taller-de-introducci%C3%B3n-a-markdown)  
-[StackOverFlow](https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown)  
+# 2 Referencias
+* [GitHub](https://docs.github.com/es/get-started)  
+* [IAW - Jose Juan Sánchez](https://josejuansanchez.org/iaw/taller-markdown/index.html#taller-de-introducci%C3%B3n-a-markdown)  
+* [StackOverFlow](https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown)  
 
