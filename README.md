@@ -46,20 +46,26 @@ En esta frase estamos resaltado el comando `ls -la`.
 Al inicio del bloque se puede indicar de forma opcional cuál es el tipo de contenido que contiene el bloque para resaltar las palabras reservadas cuando se renderice. Por ejemplo: `bash`, `python`, `yaml`, `json`, `html`, `javascript`, etc.  
 **Sintaxis Markdown:**  
 
-\`\`\`  
-sudo systemctl start apache2  
-\`\`\`  
 
-\`\`\`bash  
+````
+```
+sudo systemctl start apache2
+```
+````
+
+````
+```bash  
 #!/bin/bash  
 echo "Hola mundo"  
-\`\`\`
-
-\`\`\`python  
+```
+````
+````
+```python  
 celsius = float(input('Introduce una temperatura en grados Celsius: '))  
 farenheit = (1.8 * celsius) + 32  
 print(f'La temperatura en grados Farenheit es: {farenheit}')  
-\`\`\`
+```
+````
 
 **HTML renderizado en GitHub:**  
 
@@ -286,3 +292,39 @@ Párrafo 2.
 [2]: https://github.com
 
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
