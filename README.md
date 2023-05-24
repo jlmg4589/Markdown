@@ -5,23 +5,17 @@
    1.2 [Etiquetas básicas de Markdown](#12-etiquetas-básicas-de-markdown)  
     1.2.1 [Encabezados](#121-encabezados)  
     1.2.2 [Negrita y cursiva](#122-negrita-y-cursiva)  
-    1.2.3 [Resaltar un comando](#123-resaltar-un-comando)
-    1.2.4 [Bloques de código](#124-bloques-de-código)
-    1.2.5 [Enlaces](#125-enlaces)
-        1.2.5.1 [Otra forma de gestionar enlaces](#1251-otra-forma-de-gestionar-enlaces)
-    1.2.6 [Imágenes](#126-imágenes)
-    1.2.7 [Listas](#127-listas)
-        1.2.7.1 [Listas desordenadas](#1271-listas-desordenadas)
-        1.2.7.2 [Listas desordenadas anidadas](#1272-listas-desordenadas-anidadas)
-        1.2.7.3 [Listas ordenadas](#1273-listas-ordenadas)
-        1.2.7.4 [Listas ordenadas anidadas](#1274-listas-ornenadas-anidadas)
-        1.2.7.5 [Listas de comprobación](#1275-listas-de-comprobación)
-    1.2.8 [Tablas](#128-tablas)
-    1.2.9 [Forzar un salto de línea](#129-forzar-un-salto-de-línea)
-    1.2.10 [Citar textos](#1210-citar-textos)
-    1.2.11 [Comentarios](#1211-comentarios)
-    1.2.12 [Diagrama de flujo](#1212-diagrama-de-flujo)
-    1.2.14 [Ecuaciones matemáticas](#1214-ecuaciones-matemáticas)
+    1.2.3 [Resaltar un comando](#123-resaltar-un-comando)  
+    1.2.4 [Bloques de código](#124-bloques-de-código)  
+    1.2.5 [Enlaces](#125-enlaces)  
+    1.2.6 [Imágenes](#126-imágenes)  
+    1.2.7 [Listas](#127-listas)   
+    1.2.8 [Tablas](#128-tablas)  
+    1.2.9 [Forzar un salto de línea](#129-forzar-un-salto-de-línea)  
+    1.2.10 [Citar textos](#1210-citar-textos)  
+    1.2.11 [Comentarios](#1211-comentarios)  
+    1.2.12 [Diagrama de flujo](#1212-diagrama-de-flujo)  
+    1.2.14 [Ecuaciones matemáticas](#1214-ecuaciones-matemáticas)  
 2. [Referencias](#2-referencias)  
 
 # **1. Taller de introducción a Markdown**  
@@ -71,6 +65,9 @@ En esta frase estamos resaltado el comando `ls -la`.
 
 ### **1.2.4 Bloques de código**  
 Al inicio del bloque se puede indicar de forma opcional cuál es el tipo de contenido que contiene el bloque para resaltar las palabras reservadas cuando se renderice. Por ejemplo: `bash`, `python`, `yaml`, `json`, `html`, `javascript`, etc.  
+
+> Para omitir las comillas triple de bloque (```), podemos albergar todo el bloque con cuatro comillas (````), o escapar a cada comilla con (\\`).
+
 **Sintaxis Markdown:**  
 
 
