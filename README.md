@@ -111,6 +111,9 @@ Enlaces a la página web del [IES Donñana][1] y a [GitHub][2].
 
 Enlaces a la página web del [IES Donñana][1] y a [GitHub][2].
 
+[1]: https://iesdonana.org
+[2]: https://github.com
+
 Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el mismo enlace varias veces en el documento.  
 
 ### **1.2.6 Imágenes**  
@@ -300,9 +303,10 @@ Párrafo 1.
 
 Párrafo 2.
 
+### **1.2.12 Diagrama de flujo**
 
-[1]: https://iesdonana.org
-[2]: https://github.com
+**HTML renderizado en GitHub:**  
+
 
 ````
 Simple diagrama de flujo:
@@ -315,6 +319,8 @@ graph TD;
     C-->D;
 ```
 ````
+
+**HTML renderizado en GitHub:**  
 
 Simple diagrama de flujo:
 
@@ -327,4 +333,33 @@ graph TD;
 ```
 
 [Editor de mermaid](https://mermaid.live)
+
+
+### **1.2.14 Ecuaciones matemáticas**
+**HTML renderizado en GitHub:**  
+Para habilitar una comunicación clara de las expresiones matemáticas, GitHub admite expresiones matemáticas con formato LaTeX en Markdown.  
+Como ya se ha comentado, al igual que ocurre con Latex, para poner una ecuación se ha de poner entre $ la expresión concreta.
+
+* Para insertar una ecuación dentro de una frase, o para utilizar un carácter especial, como letras griegas.
+```
+La ecuación, $x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$, es de segundo grado.
+```
+
+* Como bloque.
+```
+La ecuación de segundo grado es:
+$$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
+```
+
+
+**HTML renderizado en GitHub:**  
+
+* Dentro de una frase:  
+La ecuación, $x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$, es de segundo grado.
+
+* En un bloque.  
+La ecuación de segundo grado es:  
+$$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
+
+[Editor de ecuacione para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
 
