@@ -33,7 +33,7 @@ En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redac
 | --- | --- | --- | --- | ---
 | Negrita | `Command+B` (Mac) o `Ctrl+B` (Windows/Linux) |  | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
 | Cursiva | `Command+I` (Mac) o `Ctrl+I` (Windows/Linux) | * * o _ _ | \*Texto en cursuva\*| *Texto en cursiva*
-| Tachado |  | \~\~ \~\~ | \~Texto tachado\~ | ~~Texto tachado~~
+| Tachado | Ninguno | \~\~ \~\~ | \~Texto tachado\~ | ~~Texto tachado~~
 
 ### **1.2.3 Resaltar un comando**
 **Sintaxis Markdown:**  
@@ -362,6 +362,9 @@ La ecuación de segundo grado es:
 $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
 
 [Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.  
+
 
 # 2 Bibliografía
 [GitHub](https://docs.github.com/es/get-started)  
