@@ -117,20 +117,32 @@ Esta forma de gestionar los enlaces puede ser útil cuando vamos a utilizar el m
 
 **Sintaxis Markdown:**  
 
-```  
-![](https://pro.iesdonana.org/assets/logo.png "Leyenda de la imagen")
-```  
-
-```  
-![](/images/instituto.jpeg)
+```markdown
+Markdown:
+![imagen1](https://pro.iesdonana.org/assets/logo.png "Leyenda de la imagen")
 ```  
 
+```html
+HTML:  
+<p align="center">
+    <img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR" width="300px">
+</p>
+```
+
+```markdown
+Markdown:
+![imagen3](/images/instituto1.jpeg)
+```  
 
 **HTML renderizado en GitHub:**  
 
 ![](https://pro.iesdonana.org/assets/logo.png)
 
-![Imagen|10](/images/instituto.jpg)
+<p align="center">
+    <img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR" width="300px">
+</p>
+
+![imagen3](/images/instituto1.jpg)
 
 ### **1.2.7 Listas**
 **Sintaxis Markdown:**  
@@ -274,6 +286,7 @@ Para poner un comentario en Markdown y que su contenido no sea rendereizado, se 
 ```
 Párrafo 1.
 
+
 <!-- Este texto es un comentario y no será renderizado -->
 
 Párrafo 2.
@@ -291,8 +304,19 @@ Párrafo 2.
 [1]: https://iesdonana.org
 [2]: https://github.com
 
+````
+Simple diagrama de flujo:
 
-Here is a simple flow chart:
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+````
+
+Simple diagrama de flujo:
 
 ```mermaid
 graph TD;
@@ -302,29 +326,5 @@ graph TD;
     C-->D;
 ```
 
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
-    }
-  ]
-}
-```
+[Editor de mermaid](https://mermaid.live)
+
