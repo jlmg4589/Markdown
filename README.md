@@ -29,11 +29,11 @@ En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redac
 ###### Esto es un encabezado h6
 
 ### **1.2.2 Negrita y cursiva**
-| **Estilo** | **Sintaxis** | **Ejemplo** | **Salida**  
-| --- | --- | --- | ---
-| Negrita | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
-| Cursiva | * * o _ _ | \*Texto en cursuva\*| *Texto en cursiva*
-| Tachado | \~\~ \~\~ | \~Texto tachado\~ | ~~Texto tachado~~
+| **Estilo** | **Métodos abreviados** | **Sintaxis** | **Ejemplo** | **Salida**  
+| --- | --- | --- | --- | ---
+| Negrita | `Command+B` (Mac) o `Ctrl+B` (Windows/Linux) |  | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
+| Cursiva | `Command+I` (Mac) o `Ctrl+I` (Windows/Linux) | * * o _ _ | \*Texto en cursuva\*| *Texto en cursiva*
+| Tachado |  | \~\~ \~\~ | \~Texto tachado\~ | ~~Texto tachado~~
 
 ### **1.2.3 Resaltar un comando**
 **Sintaxis Markdown:**  
@@ -305,7 +305,7 @@ Párrafo 2.
 
 ### **1.2.12 Diagrama de flujo**
 
-**HTML renderizado en GitHub:**  
+**Sintaxis Markdown:**  
 
 
 ````
@@ -336,7 +336,7 @@ graph TD;
 
 
 ### **1.2.14 Ecuaciones matemáticas**
-**HTML renderizado en GitHub:**  
+**Sintaxis Markdown:**  
 Para habilitar una comunicación clara de las expresiones matemáticas, GitHub admite expresiones matemáticas con formato LaTeX en Markdown.  
 Como ya se ha comentado, al igual que ocurre con Latex, para poner una ecuación se ha de poner entre $ la expresión concreta.
 
@@ -361,5 +361,9 @@ La ecuación, $x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$, e
 La ecuación de segundo grado es:  
 $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
 
-[Editor de ecuacione para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
+[Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
 
+# 2 Bibliografía
+[GitHub](https://docs.github.com/es/get-started)  
+[IAW - Jose Juan Sánchez](https://josejuansanchez.org/iaw/taller-markdown/index.html#taller-de-introducci%C3%B3n-a-markdown)  
+[StackOverFlow](https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown)  
