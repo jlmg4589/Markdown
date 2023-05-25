@@ -1,7 +1,7 @@
 # Índice  
 
 1. [Taller de introducción a Markdown](#1-taller-de-introducción-a-markdown)  
-   1.1 [¿Qué es Markdown?](#11-¿qué-es-markdown)  
+   1.1 [¿Qué es Markdown?](#11-qué-es-markdown)  
    1.2 [Etiquetas básicas de Markdown](#12-etiquetas-básicas-de-markdown)  
     1.2.1 [Encabezados](#121-encabezados)  
     1.2.2 [Negrita y cursiva](#122-negrita-y-cursiva)  
@@ -23,9 +23,17 @@
 ## **1.1 ¿Qué es Markdown?**  
 [Markdown](https://daringfireball.net/projects/markdown/) es un lenguaje de marcado ligero creado por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) y [Aaron Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) que trata de **facilitar la redacción y lectura de documentos en texto plano**, utilizando un conjunto de etiquetas muy sencillas para aplicar estilo al documento.
 
-Actualmente no existe un estándar para Markdown, por este motivo existen diferentes versiones o flavors de Markdown.
+Actualmente no existe un estándar para **Markdown**, por este motivo existen diferentes versiones o flavors de **Markdown**.
 
-En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redactar los archivos README.md de los repositorios y la documentación técnica de los proyectos.
+En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redactar los archivos README.md de los repositorios y la documentación técnica de los proyectos. Además _GitHub_, junto a _Discourse_ o _reddit_ están llevando una iniciativa para crear un estándar moderno de **Markdown** como es **CommonMark**. 
+
+En plataformas de repositorios remotos como _GitHub_, la función de este archivo es presentar información del proyecto, como:
+
+* Descripción de su proyecto.
+* funcionalidades.
+* Cómo pueden usarlo los usuarios.
+* Donde los usuarios pueden encontrar ayuda sobre su proyecto.
+* Autores del proyecto.
 
 ## **1.2 Etiquetas básicas de Markdown**
 ### **1.2.1 Encabezados**
@@ -154,11 +162,13 @@ HTML:
     <img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR" width="300px">
 </p>
 ```
+El siguiente código es erróneo, pero se ha introducido para comprobar que aparece la identificación indicada entre corchetes [imagen3].  
 
 ```markdown
 Markdown:
-![imagen3](/images/instituto1.jpeg)
+![imagen3](/images/instituto.jpeg)
 ```  
+> El error, está en que el nombre del archivo que hay dentro de la carpeta "images" es "instituto.jpg".
 
 **HTML renderizado en GitHub:**  
 
@@ -168,7 +178,7 @@ Markdown:
     <img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR" width="300px">
 </p>
 
-![imagen3](/images/instituto1.jpg)
+![imagen3](/images/instituto.jpeg)
 
 ### **1.2.7 Listas**
 #### **1.2.7.1 Listas desordenadas**
@@ -388,11 +398,10 @@ La ecuación, $x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$, e
 La ecuación de segundo grado es:  
 $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
 
-[Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)
-
-
 # 2. Referencias
 * [GitHub](https://docs.github.com/es/get-started)  
 * [IAW - Jose Juan Sánchez](https://josejuansanchez.org/iaw/taller-markdown/index.html#taller-de-introducci%C3%B3n-a-markdown)  
 * [StackOverFlow](https://stackoverflow.com/questions/24383700/resize-image-in-the-wiki-of-github-using-markdown)  
+* [Editor de ecuaciones para Latex](https://latex.codecogs.com/eqneditor/editor.php?lang=es-es)  
+* [RADME en tu GitHub](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github)
 
