@@ -4,7 +4,7 @@
    1.1 [¿Qué es Markdown?](#11-qué-es-markdown)  
    1.2 [Etiquetas básicas de Markdown](#12-etiquetas-básicas-de-markdown)  
     1.2.1 [Encabezados](#121-encabezados)  
-    1.2.2 [Negrita y cursiva](#122-negrita-y-cursiva)  
+    1.2.2 [Negrita, cursiva y tachado](#122-negrita-cursiva-y-tachado)  
     1.2.3 [Resaltar un comando](#123-resaltar-un-comando)  
     1.2.4 [Bloques de código](#124-bloques-de-código)  
     1.2.5 [Enlaces](#125-enlaces)  
@@ -57,7 +57,7 @@ En plataformas de repositorios remotos como _GitHub_, la función de este archiv
 ##### Esto es un encabezado h5
 ###### Esto es un encabezado h6
 
-### **1.2.2 Negrita y cursiva**
+### **1.2.2 Negrita, cursiva y tachado**
 | **Estilo** | **Métodos abreviados** | **Sintaxis** | **Ejemplo** | **Salida**  
 | --- | --- | --- | --- | ---
 | Negrita | `Command+B` (Mac) o `Ctrl+B` (Windows/Linux) | ** ** o __ __ | \*\*Texto en negrita\*\* | **Texto en negrita**
@@ -294,6 +294,7 @@ Puedes crear una lista anidada al dejar sangría en uno o más elementos de la l
 | Fila 3.1 | Fila 3.2 | *Fila 3.3* | 
 
 ### **1.2.9 Forzar un salto de línea**  
+
 Para forzar un salto de línea es necesario incluir dos espacios en blanco y un salto de línea.
 
 **Sintaxis Markdown:**  
@@ -305,6 +306,21 @@ hemos forzado un salto de línea.
 **HTML renderizado en GitHub:**  
 
 Por ejemplo, en esta frase  
+hemos forzado un salto de línea.
+
+Otra forma de forzar saltos de línea es utilizando `\`.  
+
+**Sintaxis Markdown:**  
+```
+Por ejemplo, en esta frase\
+hemos forzado un salto de línea.
+```
+> De esta forma podemos concatenar saltos de línea pulsando `ENTER` y `\` de forma recursiva para modificar los espacios entre párrafos. No se pude utilizar esta combinación si finalmente hay un comando como por ejemplo `#`.  
+
+ 
+**HTML renderizado en GitHub:**  
+
+Por ejemplo, en esta frase\
 hemos forzado un salto de línea.
 
 ### **1.2.10 Citar textos**
