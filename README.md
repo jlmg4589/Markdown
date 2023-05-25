@@ -15,7 +15,7 @@
     1.2.10 [Citar textos](#1210-citar-textos)  
     1.2.11 [Comentarios](#1211-comentarios)  
     1.2.12 [Diagrama de flujo](#1212-diagrama-de-flujo)  
-    1.2.14 [Ecuaciones matemáticas](#1214-ecuaciones-matemáticas)  
+    1.2.13 [Ecuaciones matemáticas](#1213-ecuaciones-matemáticas)  
 2. [Referencias](#2-referencias)  
 
 # **1. Taller de introducción a Markdown**  
@@ -362,7 +362,7 @@ graph TD;
 [Editor de mermaid](https://mermaid.live)
 
 
-### **1.2.14 Ecuaciones matemáticas**
+### **1.2.13 Ecuaciones matemáticas**
 **Sintaxis Markdown:**  
 Para habilitar una comunicación clara de las expresiones matemáticas, GitHub admite expresiones matemáticas con formato LaTeX en Markdown.  
 Como ya se ha comentado, al igual que ocurre con Latex, para poner una ecuación se ha de poner entre $ la expresión concreta.
